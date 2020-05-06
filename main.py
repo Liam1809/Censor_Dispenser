@@ -30,8 +30,16 @@ def censor_two(email, censored_list):
               else:
                   censor_len += "*" 
           email = email.replace(words, censor_len)
-      
   return email
 
 # print(censor_two(email_two, proprietary_terms))
 
+negative_words = ["concerned", "behind", "danger", "dangerous", "alarming", "alarmed", "out of control", "help", "unhappy", "bad", "upset", "awful", "broken", "damage", "damaging", "dismal", "distressed", "distressed", "concerning", "horrible", "horribly", "questionable"]
+
+def censor_three(email, censored_list, negative_words):
+    email = censor_two(email, censored_list)
+    email = censor_two(email, negative_words)
+    return email
+    
+print(censor_three(email_three, proprietary_terms, negative_words))
+    
