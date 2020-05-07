@@ -44,3 +44,100 @@ def censor_two(email, censored_list):
 
 # print(censor_two(email_two, proprietary_terms))
 
+# list of negative words
+negative_words = ["concerned", "behind", "danger", "dangerous", "alarming", "alarmed", "out of control", "unhappy", "bad", "upset", "awful", "broken", "damage", "damaging", "dismal", "distressed", "distressing", "concerning", "horrible", "Horribly", "questionable"]
+
+def censor_three(email, censored_list, negative_words):
+    text = []
+    # append to text
+    email = censor_two(email, censored_list)
+    for words in email.split():
+        text.append(words)
+    # censor
+    count = 0
+    for i in range(len(text)):
+        for element in negative_words:
+          if element in text[i]:
+             count += 1
+             if count > 2:
+                word_clean = text[i]
+                for sign in punctuation:
+                    word_clean = word_clean.strip(sign)
+                censor_len  = ""
+                for element in word_clean:
+                    censor_len += "*"
+                text[i] = text[i].replace(word_clean, censor_len)
+    # organise text
+    count1 = 0
+    for i in range(len(text)):
+            if "," in text[i] and i < 3:
+                text[i] += "\n\n"
+            if "," in text[i] and i == len(text) -1 - 3:
+                text[i] += "\n\n"
+            if "." in text[i]:
+                count1 += 1
+                if count1 == 3:
+                    text[i] += "\n\n"
+                elif count1 == 6:
+                    text[i] += "\n\n"
+                elif count1 == 8:
+                    text[i] += "\n\n"
+                elif count1 == 10:
+                    text[i] += "\n\n"
+    return " ".join(text)
+
+# print(censor_three(email_three, proprietary_terms, negative_words))
+    
+def censor_four(email,censored_all):
+    text = []
+    # append to text
+    for words in email.split():
+        text.append(words)
+    # censor
+    for i in range(len(text)):
+        for element in censored_all:
+            if element in text[i]:
+                # censor the target word
+                word_target = text[i]
+                censor_len = ""
+                for element in word_target:
+                    censor_len += "*"
+                for sign in punctuation:
+                    word_target = word_target.strip(sign)
+                text[i] = text[i].replace(word_target, censor_len)
+                # censor the target word before
+                word_target_before = text[i - 1]
+                censor_len_before = ""
+                for element in word_target_before:
+                    censor_len_before += "*"
+                for sign in punctuation:
+                    word_target_before = word_target_before.strip(sign)
+                text[i - 1] = text[i - 1].replace(word_target_before, censor_len_before)
+            # censor the target word after
+                word_target_after = text[i + 1]
+                censor_len_after = ""
+                for element in word_target_after:
+                    censor_len_after += "*"
+                for sign in punctuation:
+                    word_target_after = word_target_after.strip(sign)
+                text[i + 1] = text[i +1].replace(word_target_after, censor_len_after)
+    # organise text
+    count = 0
+    for i in range(len(text)):
+            if "!" in text[i] and count == 0:
+                text[i] += "\n\n"
+            if "." in text[i]:
+                count += 1
+                if count == 5:
+                    text[i] += "\n\n"
+                elif count == 7:
+                    text[i] += "\n\n"
+                elif count == 10:
+                    text[i] += "\n\n"
+                elif count == 15:
+                    text[i] += "\n\n"
+    return " ".join(text)
+    
+# print(censor_four(email_four,(proprietary_terms + negative_words)))                   
+            
+
