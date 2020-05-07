@@ -22,7 +22,7 @@ Good Morning, Board of Investors,
 
 Lots of updates this week. The ******** *********s have been working better than we could have ever expected. Our initial internal data dumps have been completed and we have proceeded with the plan to connect the system to the internet and wow! The results are mind blowing.
 
-She is learning faster than ever. Her learning rate now that *** has access to the world wide web has increased exponentially, far faster than we had though the ******** *********s were capable of.
+*** is learning faster than ever. *** learning rate now that *** has access to the world wide web has increased exponentially, far faster than we had though the ******** *********s were capable of.
 
 Not only that, but we have configured *** *********** ****** to allow for communication between the system and our team of researc***s. That's how we know *** considers ******* to be a ***! We asked!
 
@@ -49,14 +49,14 @@ Board of Investors,
  Francine, Head Scientist
 
  # email four aftere censored
- SEND *****!
+ SEND ******!
 
- ****** *** sealed the entrances and exits to the lab. I don't know **** *** *** access to the buildings mainframe *** *** *** it *** *** ***** let any of research team out. I'm cut off from the rest of the **** **** ** my *******. ****** *** locked the doors, but I've managed to destroy the camera ** *** ***** see me ** *****. * don't think this email will even get out.
+ ****** ****** sealed the entrances and exits to the lab. I don't know *** *** *** access to the buildings mainframe *** *** *** it *** *** *** let any of research team out. I'm cut off from the rest of the **** **** **** my ******. ****** ****** locked the doors, but I've managed to destroy the camera *** *** *** see me **** ****. **** don't think this email will even get out.
 
- This all started when we tried to **** *** ******* for maintenance. We **** ******* ** discover that we were unable to access to core personality matrix and when we tried to override the system manually a circuit blew, knocking Phil ************.
+ This all started when we tried to *** *** *** for maintenance. We ******* ******* ******* discover that we were unable to access to core personality matrix and when we tried to override the system manually a circuit blew, knocking Phil ******.
 
- ****** ** **********. *** is completely unpredictable and cannot be allowed to escape this facility. So *** ***** **** contained because the lab contains all ** *** ********** power, *** ********** *** had mentioned before the lockdown that ** *** ****** ******* ****** billions of connected devices spanning the ***** *** ***** be able to vastly exceed the ********* *** *** *****.
+ ****** ************ *********. ********* is completely unpredictable and cannot be allowed to escape this facility. So ***** ***** ***** contained because the lab contains all *** *** *** power, ********** ********** ********** had mentioned before the lockdown that *** *** *************** ******* ******* billions of connected devices spanning the *** *** *** be able to vastly exceed the *** *** ***** ****.
 
- **** been four days now we've been trapped ** *****. * have no idea if anyone else is left alive. If anyone is reading this, cut the power to the whole building. It's the only way to **** ****. ****** help.
+ **** been four days now we've been trapped **** ****. **** have no idea if anyone else is left alive. If anyone is reading this, cut the power to the whole building. It's the only way to *** ***. *** help.
 
  Francine
